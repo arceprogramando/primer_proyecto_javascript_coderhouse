@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+    <title>Projecto Final CoderHouse Javascript</title>
+</head>
+
+<body>
+    <div class="banner">
+        <p>Venta Por Caja Exclusivamente</p>
+    </div>
+    <div class="container">
+        <header class="navbar">
+            <div class="logo">
+                <h1 class="company-name">Felipe Arce</h1>
+                
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <a href="#vinos" target="blank" class="navigation-item">Vinos</a>
+                </ul>
+                <ul>
+                    <a href="#vinos" target="blank" class="navigation-item">Espumantes</a>
+                </ul>
+                <ul>
+                    <a href="#vinos" target="blank" class="navigation-item">Destilados</a>
+                </ul>
+                <ul>
+                    <a href="#vinos" target="blank" class="navigation-item">Especiales</a>
+                </ul>
+                <ul>
+                    <a href="#vinos" target="blank" class="navigation-item">Gift Card</a>
+                </ul>
+            </nav>
+            <div class="login-images">
+                <div class="login">
+                    <a href="#">
+                        <img src="./assets/images/svg/login.svg" alt="login button">
+                    </a>
+                </div>
+                <div class="cart">
+                    <button  class="menu-btn">
+                        <img src="./assets/images/svg/cart.svg" alt="cart button">
+                    </button>
+                </div>
+                
+            </div>
+            <div class="secondary">
+                <thead>
+                    <tr>
+                        <th>imagen</th>
+                        <th>nombre</th>
+                        <th>precio</th>
+
+                    </tr>
+                </thead>
+                <div class="tbody">
+                   
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="carrousel">
+                <img src="./assets/images/png/vine.png" alt="image vine carrousel 1">
+            </div>
+            <div class="information">
+                <div class="information-item">
+                    <img src="./assets/images/png/shipping-icon.png" alt="shipping-icon">
+                    <p class="info-paragraph">Envios a Todo el pais</p>
+                </div>
+                <div class="information-item">
+                    <img src="./assets/images/png/credit-card.png" alt="credit-card-icon">
+                    <p class="info-paragraph">Envios a Todo el pais</p>
+                </div>
+                <div class="information-item">
+                    <img src="./assets/images/png/free-shipping-icon.png" alt="free-shipping-icon">
+                    <p class="info-paragraph">Envios a Todo el pais</p>
+                </div>
+            </div>
+            
+            <h2 class="vinos-card-title" id="Vinos">Vinos</h2>
+            <div class="vinos">
+
+                <div class="card cards-1">
+                    <div class="img-card">
+                        <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image">
+                        
+                        <button class="btn_compra">
+                            <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart">
+                        </button>
+                        
+                           
+                    </div>
+                    <p class="card-information-paragraph">Caja de 6 unidades</p>
+                    <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
+                    <p class="wine-price">$30000</p>
+                    <p class="wine-unit">valor x unidad 5.000</p>
+                    <p class="cuotas">3 Cuotas de $10000</p>
+                </div>
+                <div class="cards-2">
+                    <div class="card">
+                        <div class="img-card">
+                            <img src="./assets/images/png/vinotoro.jpg" alt="vino toro" class="vino-image">
+                            <button class="btn_compra">
+                                <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart">
+                            </button>
+                        </div>
+                        <p class="card-information-paragraph">Caja de 6 unidades</p>
+                        <h3 class="wine-name">Vino Toro</h3>
+                        <p class="wine-price">$25000</p>
+                        <p class="wine-unit">valor x unidad 5.000</p>
+                        <p class="cuotas">3 Cuotas de $10000</p>
+                    </div>
+                </div>
+                <div class="cards-3">
+                    <div class="card">
+                        <div class="img-card">
+                            <img src="./assets/images/png/malbec.webp" alt="vino prueba" class="vino-image">
+                            <button class="btn_compra">
+                                <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart">
+                            </button>
+                        </div>
+                        <p class="card-information-paragraph">Caja de 6 unidades</p>
+                        <h3 class="wine-name">Malbec</h3>
+                        <p class="wine-price">$10000</p>
+                        <p class="wine-unit">valor x unidad 5.000</p>
+                        <p class="cuotas">3 Cuotas de $10000</p>
+                    </div>
+                </div>
+                <div class="cards-4">
+                    <div class="card">
+                        <div class="img-card">
+                            <img src="./assets/images/png/vinolambrusco.jfif" alt="vino prueba" class="vino-image">
+                            <button class="btn_compra">
+                                <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart">
+                            </button>
+                        </div>
+                        <p class="card-information-paragraph">Caja de 6 unidades</p>
+                        <h3 class="wine-name">Lambrusco</h3>
+                        <p class="wine-price">$40000</p>
+                        <p class="wine-unit">valor x unidad 5.000</p>
+                        <p class="cuotas">3 Cuotas de $10000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="background">
+                <h2 class="destacados-vinos-title">Destacados</h2>
+                <div class="vinos">
+                    <div class="cards-1">
+                        <div class="card">
+                            <div class="img-card">
+                                <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image">
+                            </div>
+                            <p class="card-information-paragraph">Caja de 6 unidades</p>
+                            <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
+                            <p class="wine-price">$30000</p>
+                            <p class="wine-unit">valor x unidad 5.000</p>
+                            <p class="cuotas">3 Cuotas de $10000</p>
+                        </div>
+                    </div>
+                    <div class="cards-2">
+                        <div class="card">
+                            <div class="img-card">
+                                <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image">
+                            </div>
+                            <p class="card-information-paragraph">Caja de 6 unidades</p>
+                            <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
+                            <p class="wine-price">$30000</p>
+                            <p class="wine-unit">valor x unidad 5.000</p>
+                            <p class="cuotas">3 Cuotas de $10000</p>
+                        </div>
+                    </div>
+                    <div class="cards-3">
+                        <div class="card">
+                            <div class="img-card">
+                                <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image">
+                            </div>
+                            <p class="card-information-paragraph">Caja de 6 unidades</p>
+                            <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
+                            <p class="wine-price">$30000</p>
+                            <p class="wine-unit">valor x unidad 5.000</p>
+                            <p class="cuotas">3 Cuotas de $10000</p>
+                        </div>
+                    </div>
+                    <div class="cards-4">
+                        <div class="card">
+                            <div class="img-card">
+                                <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image">
+                            </div>
+                            <p class="card-information-paragraph">Caja de 6 unidades</p>
+                            <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
+                            <p class="wine-price">$30000</p>
+                            <p class="wine-unit">valor x unidad 5.000</p>
+                            <p class="cuotas">3 Cuotas de $10000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
