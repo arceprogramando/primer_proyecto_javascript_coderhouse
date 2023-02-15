@@ -8,6 +8,7 @@ if (localStorage.length === 0) {
 } else {
   contadorCarrito = localStorage.length;
 }
+ 
 
 function agregar_a_carrito(event) {
   let hijo = event.currentTarget
@@ -30,6 +31,13 @@ function agregar_a_carrito(event) {
   console.log(carrito)
   console.log("Producto Agregado!");
   mostrarCarrito(nuevoProducto)
+  Toastify({
+    text:"Agregado a carrito",
+    duration:3000,
+    gravity:"bottom",
+    position:"left",
+    
+  }).showToast();
 }
 
 for (let boton of btn_compra) {
@@ -44,7 +52,7 @@ function mostrarCarrito(producto) {
                     <td><button class="btn_borrar">Borrar</button></td>`
 
   const elementoPadre = document.querySelector('.tbody');
-  
+
   elementoPadre.append(fila)
 
   let btn_borrar = document.querySelectorAll('.btn_borrar')
@@ -79,4 +87,19 @@ menuBtn.addEventListener('click', () => {
     none.classList.remove('visible');
     menuOpen = false
   }
+});
+
+Swal.fire({
+  
+  
+  html:`<p class="vinos-pop-up">Proba nuestro nuevo vino</p>
+  <div class="card cards-1">
+  <div class="img-card-pop-up">
+      <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image">
+      
+
+  </div>
+  
+</div>`
+  
 });
