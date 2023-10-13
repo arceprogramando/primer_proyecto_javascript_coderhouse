@@ -1,7 +1,7 @@
 
-
-
-### Mi guia para proxima utilizacion de commits inspirados en [@LinuxMobile] en el proyecto [Votaciones_Premios_Front_end]
+![Descripción de la imagen](https://github.com/arceprogramando/primer_proyecto_javascript_coderhouse/blob/main/assets/images/captura_proyecto.png)
+### Mi guia para proxima utilizacion de commits inspirados en [@LinuxMobile] 
+### En los que los utilizo para enmarcar a el  grupo del proyecto [Votaciones_Premios_Front_end]
 
 ## Seguir los siguientes commits para trabajar posteriormente en este proyecto
 
