@@ -14,46 +14,37 @@
     />
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
-    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <script src="./js/componente.js"></script>
+    <script src="./js/Banner.js"></script>
+
     <title>Projecto Final CoderHouse Javascript</title>
   </head>
 
   <body>
-    <div class="banner">
-      <p>Venta Por Caja Exclusivamente</p>
-    </div>
+    <banner-header class="banner"></banner-header>
     <div class="container">
       <header class="navbar">
         <div class="logo">
-          <h1 class="company-name">Felipe Arce</h1>
+          <h1>
+            <img src="./assets/images/svg/logopmn.svg" alt="Logo de PMNWINE" title="Logo de PMNWINE" />
+          </h1>
         </div>
         <nav class="navigation">
           <ul>
             <a href="#vinos" target="blank" class="navigation-item">Vinos</a>
           </ul>
           <ul>
-            <a href="#vinos" target="blank" class="navigation-item"
-              >Espumantes</a
-            >
+            <a href="#vinos" target="blank" class="navigation-item">Espumantes</a>
           </ul>
           <ul>
-            <a href="#vinos" target="blank" class="navigation-item"
-              >Destilados</a
-            >
+            <a href="#vinos" target="blank" class="navigation-item">Destilados</a>
           </ul>
           <ul>
-            <a href="#vinos" target="blank" class="navigation-item"
-              >Especiales</a
-            >
+            <a href="#vinos" target="blank" class="navigation-item">Especiales</a>
           </ul>
           <ul>
-            <a href="#vinos" target="blank" class="navigation-item"
-              >Gift Card</a
-            >
+            <a href="#vinos" target="blank" class="navigation-item">Gift Card</a>
           </ul>
         </nav>
         <div class="login-images">
@@ -81,28 +72,17 @@
       </header>
       <main>
         <div class="carrousel">
-          <img
-            src="./assets/images/png/vine.png"
-            alt="image vine carrousel 1"
-          />
+          <img src="./assets/images/png/vine.png" alt="image vine carrousel 1" />
         </div>
 
         <h2 class="vinos-card-title" id="Vinos">Vinos</h2>
         <div class="vinos">
           <div class="card cards-1">
             <div class="img-card">
-              <img
-                src="./assets/images/png/vinoprueba.png"
-                alt="vino prueba"
-                class="vino-image"
-              />
+              <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image" />
 
               <button class="btn_compra">
-                <img
-                  src="./assets/images/svg/addcart.svg"
-                  alt="add cart"
-                  class="add-cart"
-                />
+                <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart" />
               </button>
             </div>
             <p class="card-information-paragraph">Caja de 6 unidades</p>
@@ -114,17 +94,9 @@
           <div class="cards-2">
             <div class="card">
               <div class="img-card">
-                <img
-                  src="./assets/images/png/vinotoro.jpg"
-                  alt="vino toro"
-                  class="vino-image"
-                />
+                <img src="./assets/images/png/vinotoro.jpg" alt="vino toro" class="vino-image" />
                 <button class="btn_compra">
-                  <img
-                    src="./assets/images/svg/addcart.svg"
-                    alt="add cart"
-                    class="add-cart"
-                  />
+                  <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart" />
                 </button>
               </div>
               <p class="card-information-paragraph">Caja de 6 unidades</p>
@@ -137,17 +109,9 @@
           <div class="cards-3">
             <div class="card">
               <div class="img-card">
-                <img
-                  src="./assets/images/png/malbec.webp"
-                  alt="vino prueba"
-                  class="vino-image"
-                />
+                <img src="./assets/images/png/malbec.webp" alt="vino prueba" class="vino-image" />
                 <button class="btn_compra">
-                  <img
-                    src="./assets/images/svg/addcart.svg"
-                    alt="add cart"
-                    class="add-cart"
-                  />
+                  <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart" />
                 </button>
               </div>
               <p class="card-information-paragraph">Caja de 6 unidades</p>
@@ -160,17 +124,9 @@
           <div class="cards-4">
             <div class="card">
               <div class="img-card">
-                <img
-                  src="./assets/images/png/vinolambrusco.jfif"
-                  alt="vino prueba"
-                  class="vino-image"
-                />
+                <img src="./assets/images/png/vinolambrusco.jfif" alt="vino prueba" class="vino-image" />
                 <button class="btn_compra">
-                  <img
-                    src="./assets/images/svg/addcart.svg"
-                    alt="add cart"
-                    class="add-cart"
-                  />
+                  <img src="./assets/images/svg/addcart.svg" alt="add cart" class="add-cart" />
                 </button>
               </div>
               <p class="card-information-paragraph">Caja de 6 unidades</p>
@@ -187,11 +143,7 @@
             <div class="cards-1">
               <div class="card">
                 <div class="img-card">
-                  <img
-                    src="./assets/images/png/vinoprueba.png"
-                    alt="vino prueba"
-                    class="vino-image"
-                  />
+                  <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image" />
                 </div>
                 <p class="card-information-paragraph">Caja de 6 unidades</p>
                 <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
@@ -203,11 +155,7 @@
             <div class="cards-2">
               <div class="card">
                 <div class="img-card">
-                  <img
-                    src="./assets/images/png/vinoprueba.png"
-                    alt="vino prueba"
-                    class="vino-image"
-                  />
+                  <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image" />
                 </div>
                 <p class="card-information-paragraph">Caja de 6 unidades</p>
                 <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
@@ -219,11 +167,7 @@
             <div class="cards-3">
               <div class="card">
                 <div class="img-card">
-                  <img
-                    src="./assets/images/png/vinoprueba.png"
-                    alt="vino prueba"
-                    class="vino-image"
-                  />
+                  <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image" />
                 </div>
                 <p class="card-information-paragraph">Caja de 6 unidades</p>
                 <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
@@ -235,11 +179,7 @@
             <div class="cards-4">
               <div class="card">
                 <div class="img-card">
-                  <img
-                    src="./assets/images/png/vinoprueba.png"
-                    alt="vino prueba"
-                    class="vino-image"
-                  />
+                  <img src="./assets/images/png/vinoprueba.png" alt="vino prueba" class="vino-image" />
                 </div>
                 <p class="card-information-paragraph">Caja de 6 unidades</p>
                 <h3 class="wine-name">Angelica Zapata Malbec 2006</h3>
@@ -252,10 +192,7 @@
         </div>
       </main>
     </div>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/toastify-js"
-    ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="sweetalert2.all.min.js"></script>
     <script src="js/main.js"></script>
   </body>
